@@ -1,4 +1,5 @@
 import { ConnectionOptions } from 'typeorm';
+import { Todos } from './todos/todos.entity';
 
 const config: ConnectionOptions = {
   type: 'mysql',
@@ -9,7 +10,7 @@ const config: ConnectionOptions = {
   database: process.env.MYSQL_DATABASE,
   synchronize: true,
   logging: true,
-  entities: ['src/entity/**/*.ts'],
+  entities: [Todos],
   migrations: ['src/migration/**/*.ts'],
   subscribers: ['src/subscriber/**/*.ts'],
 };

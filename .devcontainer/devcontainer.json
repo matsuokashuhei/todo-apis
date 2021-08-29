@@ -8,7 +8,9 @@
     "apollographql.vscode-apollo",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "github.copilot"
+    "github.copilot",
+    "mhutchie.git-graph",
+    "steoates.autoimport"
   ],
   "settings": {
     "files.insertFinalNewline": true,
